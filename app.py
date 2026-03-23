@@ -47,4 +47,5 @@ while True:
         save_data(get_expenses())
         break
     print("Programma darbojas")
+    print("Testa izmaiņa")
     
