@@ -5,3 +5,5 @@ def export_to_csv(data):
         writer = csv.DictWriter(f, fieldnames=["date", "amount", "category", "description"])
         writer.writeheader()
         writer.writerows(data)
+
+print("Eksports darbojas")
